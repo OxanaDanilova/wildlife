@@ -43,6 +43,7 @@ header {
 }
 
 .logo-text {
+  margin: 0;
   width: 155px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -59,6 +60,7 @@ nav {
 }
 
 .header-menu {
+  height: 50px;
   display: flex;
   justify-content: space-between;
   list-style: none;
@@ -97,32 +99,28 @@ nav {
 }
 
 .survival {
-  margin-top: 120px;
+  margin-top: 103px;
 }
 
 .survival-wrapper {
-  height: 340px;
+  height: 337px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .survival-title {
-  width: 199px;
-  height: 72px;
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 48px;
-  line-height: 72px;
   letter-spacing: 2px;
   color: #cd6326;
   text-transform: capitalize;
 }
 
 .survival-text {
-  width: 274px;
-  height: 108px;
+  width: 272px;
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -224,6 +222,7 @@ nav {
 }
 
 .slide-description {
+  margin-top: 10px;
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -277,7 +276,7 @@ form {
 
 .email {
   height: 60px;
-  width: 540px;
+  width: 526px;
   opacity: 0.5;
   border-radius: 0px;
   padding-left: 15px;
