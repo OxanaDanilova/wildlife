@@ -1,116 +1,165 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .first-screen {
-    height: 779px;
-    background-image: url(./assets/images/first-scr-bgr.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #02160b;
-
+  height: 779px;
+  background-image: url(./assets/images/first-scr-bgr.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #02160b;
 }
 
 .second-screen {
-    height: 1368px;
-    background-color: #cccccc;
+  height: 1368px;
+  background-color: #cccccc;
 }
 
 .block-wrapper {
-    width: 1440px;
-    margin: 0 auto;
-
+  width: 1440px;
+  margin: 0 auto;
 }
 
 .content-wrapper {
-width: 1200px;
-margin: 0 auto;
-
+  width: 1200px;
+  margin: 0 auto;
 }
 
-
-
 header {
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo-wrapper {
-    width: 240px;
-    height: 60px;
-    display: flex;
-    justify-content: space-between;
-    cursor: pointer;
+  width: 240px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
 }
 
 .logo-text {
-    width: 155px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 60px;
-    text-transform: uppercase;
-    color: #F7F7F7;
+  width: 155px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #f7f7f7;
 }
 
 nav {
-    width: 480px;
-    height: 50px;
+  width: 480px;
+  height: 50px;
 }
 
 .header-menu {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    align-items: center;
-    
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
 }
 
 .header-menu li a {
-    text-decoration: none;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 23px;
-    line-height: 60px;
-    color: #F7F7F7;
-
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 60px;
+  color: #f7f7f7;
 }
 
+.sign-btn {
+  width: 120px;
+  height: 50px;
+  border: 2px solid #cd6326;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 27px;
+  background: none;
+  text-align: center;
+  color: #f7f7f7;
+  cursor: pointer;
+}
 
 .survival {
-    
+  margin-top: 120px;
+}
 
+.survival-wrapper {
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.survival-title {
+  width: 199px;
+  height: 72px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: 2px;
+  color: #cd6326;
+  text-transform: capitalize;
+}
+
+.survival-text {
+  width: 274px;
+  height: 108px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #f7f7f7;
+  text-align: justify;
+}
+
+.donate-btn {
+  width: 160px;
+  height: 60px;
+  background: #cd6326;
+  border-radius: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 27px;
+  text-align: center;
+  color: #f7f7f7;
+  border: none;
+  cursor: pointer;
 }
 
 .latest-articles {
-    
-
 }
 
 .get-notified {
-    
 }
 
-
 footer {
-    height: 359px;
-    background-image: url(./assets/images/Footer-bg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #181617;
-
+  height: 359px;
+  background-image: url(./assets/images/Footer-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #181617;
 }
