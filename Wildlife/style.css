@@ -44,7 +44,7 @@ header {
 
 .logo-text {
   width: 155px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 32px;
@@ -67,7 +67,7 @@ nav {
 
 .header-menu li a {
   text-decoration: none;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 23px;
@@ -81,7 +81,7 @@ nav {
   border: 2px solid #cd6326;
   box-sizing: border-box;
   border-radius: 5px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 23px;
@@ -90,6 +90,10 @@ nav {
   text-align: center;
   color: #f7f7f7;
   cursor: pointer;
+}
+
+.sign-btn:hover {
+  background-color: #cd6326;
 }
 
 .survival {
@@ -106,7 +110,7 @@ nav {
 .survival-title {
   width: 199px;
   height: 72px;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 48px;
@@ -119,7 +123,7 @@ nav {
 .survival-text {
   width: 274px;
   height: 108px;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -133,7 +137,7 @@ nav {
   height: 60px;
   background: #cd6326;
   border-radius: 5px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 23px;
@@ -142,6 +146,10 @@ nav {
   color: #f7f7f7;
   border: none;
   cursor: pointer;
+}
+
+.donate-btn:hover {
+  background-color: #e39128;
 }
 
 .second-screen {
@@ -159,7 +167,7 @@ nav {
 .latest-articles-title {
   width: 324px;
   height: 72px;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 48px;
@@ -172,7 +180,7 @@ nav {
   width: 332px;
   height: 36px;
   margin-top: 20px;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -206,7 +214,7 @@ nav {
 
 .slide-title {
   margin-top: 247px;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -216,7 +224,7 @@ nav {
 }
 
 .slide-description {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 17px;
@@ -253,7 +261,7 @@ nav {
 .get-notified p {
   width: 526px;
   height: 41px;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 27px;
@@ -276,7 +284,7 @@ form {
 }
 
 .email::placeholder {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 23px;
@@ -292,13 +300,18 @@ form {
   background: #cd6326;
   border: 1px solid #cd6326;
   border-radius: 0px 5px 5px 0px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 23px;
   line-height: 27px;
   text-align: center;
   color: #f7f7f7;
+}
+
+.send-btn:hover {
+  background-color: #e39128;
+  cursor: pointer;
 }
 
 footer {
@@ -329,7 +342,7 @@ footer {
 
 .footer-nav ul li a {
   text-decoration: none;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 23px;
